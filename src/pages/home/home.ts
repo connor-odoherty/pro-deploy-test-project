@@ -6,7 +6,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  public testTag: string = 'TEST M 2 E'
+  public testTag: string = 'TEST M 33 xsE'
 
   constructor(public navCtrl: NavController) {
 
