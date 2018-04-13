@@ -52,7 +52,7 @@
       "cordova-plugin-ionic": {
         "APP_ID": "dfdc2f30",
         "CHANNEL_NAME": "Master",
-        "UPDATE_METHOD": "auto"
+        "UPDATE_METHOD": "none"
       },
       "cordova-plugin-whitelist": {},
       "cordova-plugin-device": {},

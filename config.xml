@@ -79,7 +79,7 @@
             <string>Master</string>
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="IonUpdateMethod">
-            <string>auto</string>
+            <string>none</string>
         </edit-config>
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
@@ -89,7 +89,7 @@
     <plugin name="cordova-plugin-ionic" spec="^4.1.3">
         <variable name="APP_ID" value="dfdc2f30" />
         <variable name="CHANNEL_NAME" value="Master" />
-        <variable name="UPDATE_METHOD" value="auto" />
+        <variable name="UPDATE_METHOD" value="none" />
     </plugin>
     <plugin name="cordova-plugin-statusbar" spec="^2.4.1" />
     <plugin name="cordova-plugin-file" spec="^6.0.1" />
