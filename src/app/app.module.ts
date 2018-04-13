@@ -11,6 +11,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { CheckForUpdatesProvider } from '../providers/check-for-updates/check-for-updates';
 
 Pro.init('dfdc2f30', {
   appVersion: "0.0.1"
@@ -39,7 +40,8 @@ Pro.init('dfdc2f30', {
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    CheckForUpdatesProvider
   ]
 })
 export class AppModule {}
